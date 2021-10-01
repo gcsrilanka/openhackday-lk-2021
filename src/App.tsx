@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { QueryClient, QueryClientProvider } from "react-query";
+import { createHashHistory } from "history";
+import { Router, Route, Switch } from "react-router-dom";
+import { routes } from "./routes/AppRoutes";
+import { HomePage } from "./pages/Home/HomePage";
+
+const history = createHashHistory();
+const queryClient = new QueryClient();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <QueryClientProvider client={queryClient}>
+        <Router history={history}>
+          <Switch>
+            {routes.map((route) => (
+              <Route
+                key={route.path}
+                exact
+                path={route.path}
+                component={route.component}
+              />
+            ))}
+
+            <Route key={""} exact path={""} component={HomePage} />
+          </Switch>
+        </Router>
+      </QueryClientProvider>
     </div>
   );
 }
