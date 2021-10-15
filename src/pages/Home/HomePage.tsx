@@ -1,4 +1,4 @@
-import Footer from "../../components/Footer/Footer"
+import Banner from "../../components/Banner/Banner"
 
 const HomePage = () => (
 	<div>
