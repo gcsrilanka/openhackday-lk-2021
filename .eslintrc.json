@@ -37,7 +37,7 @@
 		],
 		"react/react-in-jsx-scope": 0,
 		"react/jsx-indent-props": [
-			2,
+			1,
 			"tab"
 		],
 		"react/jsx-props-no-spreading": "off",
