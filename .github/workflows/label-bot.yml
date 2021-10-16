@@ -12,3 +12,5 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
         ADD_LABEL: "hacktoberfest-accepted"
         REMOVE_LABEL: "review%20needed"
+    - name: Debugging
+      run: echo ${{secrets.GH_TOKEN}}
