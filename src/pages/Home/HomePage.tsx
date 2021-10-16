@@ -1,5 +1,3 @@
-import Banner from "../../components/Banner/Banner"
-
 const HomePage = () => (
 	<div>
 		<h1>Hello</h1>
