@@ -9,8 +9,8 @@ jobs:
       uses: pullreminders/label-when-approved-action@master
       env:
         APPROVALS: "1"
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.TOKEN}}
         ADD_LABEL: "hacktoberfest-accepted"
         REMOVE_LABEL: "review%20needed"
     - name: Debugging
-      run: echo ${{secrets.GITHUB_TOKEN}}
+      run: echo ${{secrets.TOKEN}}
