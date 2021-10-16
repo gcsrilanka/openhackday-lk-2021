@@ -1,6 +1,7 @@
-import { Container, Grid, Link, List, ListItem, ListItemText } from '@mui/material'
+import { Container, Grid, Link, List, ListItemText } from '@mui/material'
 import React from 'react'
 import '../../scss/_variables.scss'
+import '../../scss/footer.scss'
 
 const Footer = () => (
     <div>

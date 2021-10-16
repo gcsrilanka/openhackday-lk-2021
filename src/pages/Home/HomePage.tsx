@@ -6,9 +6,9 @@ import Navbar from '../../components/Navbar/Navbar'
 const HomePage = () => (
 	<div>
 		<Navbar />
-		{/* <Container>
+		<Container>
 			<Banner />
-		</Container> */}
+		</Container>
 		<Footer/>
 	</div>
 )
