@@ -1,6 +1,13 @@
+import { Container } from '@mui/material'
+import Banner from '../../components/Banner/Banner'
+import Navbar from '../../components/Navbar/Navbar'
+
 const HomePage = () => (
 	<div>
-		<h1>Hello</h1>
+		<Navbar />
+		<Container>
+			<Banner />
+		</Container>
 	</div>
 )
 
