@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.wrapper {
+	text-align: center;
+	margin: 40px 0;
+}
+
+.cardWrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px 0;
+}
+
+.title {
+	color: #ad6359;
+	font-family: Montserrat;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 59px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+.card {
+	// position: absolute;
+	// width: 605.8px;
+	// height: 170px;
+	background: #f8ebef;
+	border-radius: 10px;
+	margin: 20px 20px;
+	padding: 25px;
+	color: #193d5d;
+	flex: 1 26%;
+}
+
+.question {
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.answer {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
