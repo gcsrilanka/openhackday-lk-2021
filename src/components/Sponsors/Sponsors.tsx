@@ -1,20 +1,20 @@
 import React from 'react'
+import ImageList from '@mui/material/ImageList'
+import ImageListItem from '@mui/material/ImageListItem'
+import imgData from './imageData'
 import classNames from './Sponsors.module.scss'
-import gceLogo from '../../assets/images/gc-srilanka-logoblack 1.png'
-import sliitLogo from '../../assets/images/logo-dark 1.png'
-import hfLogo from '../../assets/images/logo-hacktoberfest-full.f42e3b1 1.png'
-import doLogo from '../../assets/images/Group.png'
 
 export default function Sponsors() {
 	return (
 		<div className={classNames.wrapper}>
 			<h2 className={classNames.title}>Sponsors</h2>
-			<div className={classNames.logoWrapper}>
-				<img src={hfLogo} alt='Hacktoberfest' />
-				<img src={doLogo} alt='DigitalOcean' />
-				<img src={gceLogo} alt='Github Campus Experts' />
-				<img src={sliitLogo} alt='Sliit FOSS' />
-			</div>
+			<ImageList cols={4} gap={50} className={classNames.logoWrapper}>
+				{imgData.map(item => (
+					<ImageListItem key={item.img}>
+						<img src={item.img} srcSet={item.img} alt={item.title} loading='lazy' />
+					</ImageListItem>
+				))}
+			</ImageList>
 		</div>
 	)
 }
