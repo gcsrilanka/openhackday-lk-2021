@@ -68,9 +68,9 @@ function Navbar() {
 	}, [])
 
 	const displayDesktop = () => (
-		<Toolbar>
+		<Toolbar sx={{ boxShadow: 0 }}>
 			<div className='navHeaderBar'>
-				<div>{OpenHackDaySriLankaTitel}</div>
+				<div className='title'>{OpenHackDaySriLankaTitel}</div>
 				<div>{getMenuButtons()}</div>
 			</div>
 		</Toolbar>
@@ -143,7 +143,7 @@ function Navbar() {
 			<Button
 				{...{
 					key: label,
-					color: 'inherit',
+					// color: 'inherit',
 					to: href,
 					component: RouterLink,
 					// onClick: setActiveLinkClass,

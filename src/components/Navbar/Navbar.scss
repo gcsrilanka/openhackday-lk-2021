@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
 .header {
 	width: 100%;
 	background-color: #ffffff !important;
@@ -11,6 +13,16 @@
 	text-align: left;
 }
 
+.title {
+	font-family: 'Poppins', sans-serif !important;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 48px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
 .menuButton {
 	font-family: Work Sans, sans-serif !important;
 	font-weight: 700 !important;
@@ -19,6 +31,9 @@
 	text-transform: none !important;
 	color: #ad6359 !important;
 	text-align: right !important;
+	button:active {
+		color: #193d5d !important;
+	}
 }
 
 .toolbarDiv {
@@ -27,11 +42,24 @@
 	flex-direction: row !important;
 }
 
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+	-webkit-transition: none !important;
+	transition: none !important;
+	box-shadow: none !important;
+}
+
 .navHeaderBar {
 	width: 100% !important;
 	display: flex !important;
 	flex-direction: row !important;
 	justify-content: space-between;
+	margin: 20px auto;
+	> div:first-child {
+		margin: 0 auto;
+	}
+	> div:last-child {
+		margin: 0 auto;
+	}
 }
 
 .drawerContainer {
