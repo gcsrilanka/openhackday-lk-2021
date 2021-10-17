@@ -1,0 +1,20 @@
+@use "./variables" as variables;
+
+.about{
+    background-color: #F8EBEF;
+    padding-bottom: 50px;
+    h1{
+        color: variables.$secondary-color;
+        font-weight: 900;
+        padding: 20px 0;
+    }
+    .img-fluid{
+        max-width: 100%;
+    }
+    p{
+        font-size: 22px;
+    }
+    .maxWidth500{
+        max-width: 500px;
+    }
+}
