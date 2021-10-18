@@ -10,8 +10,8 @@ const HomePage = () => (
 		<Navbar />
 		<Container>
 			<Banner />
-			<FAQ />
 		</Container>
+		<FAQ />
 		<Footer />
 	</div>
 )
