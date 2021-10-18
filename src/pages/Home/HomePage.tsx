@@ -1,4 +1,5 @@
 import About from '../../components/About/About'
+import FAQ from '../../components/FAQ/FAQ'
 import Banner from '../../components/Banner/Banner'
 import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
@@ -10,13 +11,11 @@ const HomePage = () => (
 		<Navbar />
 		{/* <Container>
 			<Banner />
-			<Team />
-		</Container>
-		<Footer />
 		</Container> */}
 		<Banner />
 		<About />
 		<Sponsors />
+    <FAQ />
     <Team />
 		<Footer/>
 	</div>
