@@ -1,6 +1,6 @@
 import React from 'react'
-import classNames from './FAQ.module.scss'
-import faqData from './faqData'
+import classNames from '../../scss/FAQ.module.scss'
+import faqData from '../../data/faqs.json'
 
 export default function FAQ() {
 	return (
