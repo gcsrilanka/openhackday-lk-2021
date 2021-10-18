@@ -51,7 +51,7 @@
 				"argsIgnorePattern": "^_"
 			}
 		],
-		"no-console": 1,
+		"no-console": "error",
 		"import/prefer-default-export": 1,
 		"no-shadow": 1,
 		"prefer-const": 1,
