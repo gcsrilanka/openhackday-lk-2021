@@ -1,5 +1,5 @@
-import classNames from './Team.module.scss'
-import teamMembers from './teamMembers'
+import classNames from '../../scss/Team.module.scss'
+import teamMembers from '../../data/team.json'
 
 export default function Team() {
 	return (
