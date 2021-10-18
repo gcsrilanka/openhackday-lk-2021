@@ -121,7 +121,6 @@ function Navbar() {
 					color: 'inherit',
 					style: { textDecoration: 'none', color: '#AD6359' },
 					key: label,
-					// onClick: setActiveLinkClass,
 					id: label + 1,
 				}}
 			>
@@ -143,10 +142,8 @@ function Navbar() {
 			<Button
 				{...{
 					key: label,
-					// color: 'inherit',
 					to: href,
 					component: RouterLink,
-					// onClick: setActiveLinkClass,
 					id: label + 1,
 					className: 'menuButton',
 				}}
@@ -155,25 +152,6 @@ function Navbar() {
 				{label}
 			</Button>
 		))
-
-	// const setActiveLinkClass = () => {
-	// 	// get current page path
-	// 	const path = window.location.hash
-	// 	// set the active link class
-	// 	const activeLink = path.split('/')[1]
-
-	// 	const activeElement = document.getElementById(activeLink)
-
-	// 	// @ts-ignore: Object is possibly 'null'
-	// 	const activeElementText = document.getElementById(activeLink + 1)
-
-	// 	// @ts-ignore: Object is possibly 'null'
-	// 	if (activeElement != null) {
-	// 		activeElement.classList.add('active')
-	// 		// @ts-ignore: Object is possibly 'null'
-	// 		activeElementText.classList.add('activeTextColor')
-	// 	}
-	// }
 
 	return (
 		<header>
