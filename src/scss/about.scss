@@ -14,7 +14,20 @@
 	.maxWidth500 {
 		max-width: 500px;
 	}
+	.title {
+		color: #ad6359;
+		font-family: Montserrat;
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 59px;
+		letter-spacing: 0em;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
+
 .img-fluid {
 	max-width: 100%;
 }
