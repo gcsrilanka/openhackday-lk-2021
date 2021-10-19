@@ -12,12 +12,12 @@ const HomePage = () => (
 	<div>
 		<Navbar />
 		<Container>
-      <Banner />
-      <About />
-      <Speakers />
-      <Sponsors />
-      <FAQ />
-      <Team />
+			<Banner />
+			<About />
+			<Speakers />
+			<Sponsors />
+			<FAQ />
+			<Team />
 		</Container>
 		<Footer />
 	</div>
