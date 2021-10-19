@@ -1,0 +1,48 @@
+@use "./variables" as variables;
+
+h1{
+    color: variables.$secondary-color;
+    font-weight: 900;
+    padding: 20px 0;
+}
+.schedule{
+    .scheduleBox{
+        background-color: #F3F3F3;
+        border-radius: 10px;
+        padding: 25px;
+    }
+    .scheduleImg{
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .subTitle{
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 0;
+        margin: 0;
+    }
+    .subTime{
+        font-size: 14px;
+        color: variables.$secondary-color;
+        margin: 0;
+    }
+    h4{
+        margin: 0;
+    }
+    .button{
+        margin-top: 6px !important;
+        padding: 2px 12px !important;
+        background-color: #0069FF !important;
+        color: white;
+        box-shadow: none !important;
+        text-transform: capitalize !important; 
+        font-size: 14px;
+        border-radius: 6px;
+    }
+    .spacing{
+        padding: 10px;
+    }
+
+}
