@@ -5,6 +5,7 @@ import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import Team from '../../components/Team/Team'
 import Sponsors from '../../components/Sponsors/Sponsors'
+import Speakers from '../../components/Speaker/Speaker'
 
 const HomePage = () => (
 	<div>
@@ -14,10 +15,11 @@ const HomePage = () => (
 		</Container> */}
 		<Banner />
 		<About />
+		<Speakers />
 		<Sponsors />
-    <FAQ />
-    <Team />
-		<Footer/>
+		<FAQ />
+		<Team />
+		<Footer />
 	</div>
 )
 
