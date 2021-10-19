@@ -9,7 +9,6 @@ const history = createHashHistory()
 const queryClient = new QueryClient()
 
 function App() {
-	console.log('App')
 	return (
 		<div>
 			<QueryClientProvider client={queryClient}>
