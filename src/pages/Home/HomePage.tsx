@@ -1,3 +1,4 @@
+import { Container } from '@mui/material'
 import About from '../../components/About/About'
 import FAQ from '../../components/FAQ/FAQ'
 import Banner from '../../components/Banner/Banner'
@@ -9,15 +10,14 @@ import Sponsors from '../../components/Sponsors/Sponsors'
 const HomePage = () => (
 	<div>
 		<Navbar />
-		{/* <Container>
+		<Container>
 			<Banner />
-		</Container> */}
-		<Banner />
-		<About />
-		<Sponsors />
-    <FAQ />
-    <Team />
-		<Footer/>
+			<About />
+			<Sponsors />
+			<FAQ />
+			<Team />
+		</Container>
+		<Footer />
 	</div>
 )
 
