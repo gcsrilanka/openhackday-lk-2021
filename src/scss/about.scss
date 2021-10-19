@@ -1,20 +1,33 @@
-@use "./variables" as variables;
+@import './_variables.scss';
 
-.about{
-    background-color: #F8EBEF;
-    padding-bottom: 50px;
-    h1{
-        color: variables.$secondary-color;
-        font-weight: 900;
-        padding: 20px 0;
-    }
-    p{
-        font-size: 22px;
-    }
-    .maxWidth500{
-        max-width: 500px;
-    }
+.about {
+	background-color: #f8ebef;
+	padding-bottom: 50px;
+	h1 {
+		color: $secondary-color;
+		font-weight: 900;
+		padding: 20px 0;
+	}
+	p {
+		font-size: 22px;
+	}
+	.maxWidth500 {
+		max-width: 500px;
+	}
+	.title {
+		color: #ad6359;
+		font-family: Montserrat;
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 800;
+		line-height: 59px;
+		letter-spacing: 0em;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
 }
-.img-fluid{
-    max-width: 100%;
+
+.img-fluid {
+	max-width: 100%;
 }

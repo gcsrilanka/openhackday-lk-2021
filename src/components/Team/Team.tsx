@@ -1,18 +1,18 @@
 import { Container } from '@mui/material'
-import speakers from '../../data/speakers.json'
-import '../../scss/speakers.scss'
+import teamMembers from '../../data/team.json'
+import '../../scss/team.scss'
 
-export default function Speakers() {
+export default function Team() {
 	return (
 		<Container>
 			<div className='wrapper'>
-				<div className='title'>Speakers</div>
+				<div className='title'>Team</div>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua.
 				</p>
-				<div className='speakerWrapper'>
-					{speakers.map(item => (
+				<div className='teamWrapper'>
+					{teamMembers.map(item => (
 						<div className='avatar' key={item.id}>
 							<img src={item.img} alt={item.name} />
 						</div>

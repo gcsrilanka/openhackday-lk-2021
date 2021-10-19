@@ -1,7 +1,7 @@
 import './App.css'
-import {QueryClient, QueryClientProvider} from 'react-query'
-import {createHashHistory} from 'history'
-import {Route, Router, Switch} from 'react-router-dom'
+import { QueryClient, QueryClientProvider } from 'react-query'
+import { createHashHistory } from 'history'
+import { Route, Router, Switch } from 'react-router-dom'
 import routes from './routes/AppRoutes'
 import HomePage from './pages/Home/HomePage'
 
@@ -23,7 +23,7 @@ function App() {
 							/>
 						))}
 
-						<Route key='' exact path='' component={HomePage}/>
+						<Route key='' exact path='' component={HomePage} />
 					</Switch>
 				</Router>
 			</QueryClientProvider>
