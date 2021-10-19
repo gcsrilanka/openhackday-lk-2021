@@ -17,6 +17,9 @@ h1{
         border-radius: 10px;
         object-fit: cover;
     }
+    .scheduleContent{
+        padding-right: 5px;
+    }
     .subTitle{
         font-size: 14px;
         font-weight: 500;
@@ -30,6 +33,7 @@ h1{
     }
     h4{
         margin: 0;
+        font-weight: 800;
     }
     .button{
         margin-top: 6px !important;

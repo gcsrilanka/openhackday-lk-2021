@@ -19,7 +19,7 @@ const ScheduleCard: React.FC<Props> = ({
   }) => (
     <Grid container item xs={12} sm={6} md={4}className="spacing" >
         <Grid container  className="scheduleBox" >
-            <Grid item xs={8} sm={8} md={8} >
+            <Grid item xs={8} sm={8} md={8} className="scheduleContent">
                 <h4>{title}</h4>
                 <p className="subTitle">{name}</p>
                 <p className="subTime">{time}</p>
