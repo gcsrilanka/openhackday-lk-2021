@@ -6,16 +6,18 @@ import Footer from '../../components/Footer/Footer'
 import Navbar from '../../components/Navbar/Navbar'
 import Team from '../../components/Team/Team'
 import Sponsors from '../../components/Sponsors/Sponsors'
+import Speakers from '../../components/Speaker/Speaker'
 
 const HomePage = () => (
 	<div>
 		<Navbar />
 		<Container>
-			<Banner />
-			<About />
-			<Sponsors />
-			<FAQ />
-			<Team />
+      <Banner />
+      <About />
+      <Speakers />
+      <Sponsors />
+      <FAQ />
+      <Team />
 		</Container>
 		<Footer />
 	</div>
