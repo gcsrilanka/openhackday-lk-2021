@@ -1,20 +1,34 @@
+import { Container, Grid } from '@mui/material'
 import React from 'react'
-import ImageList from '@mui/material/ImageList'
-import ImageListItem from '@mui/material/ImageListItem'
-import imgData from './imageData'
-import classNames from './Sponsors.module.scss'
+import digitalocean from '../../assets/images/digitalocean.png'
+import gc from '../../assets/images/gc-srilanka.png'
+import foss from '../../assets/images/logo-sliit-foss.png'
+import hacktoberfest from '../../assets/images/logo-hacktoberfest.png'
+import '../../scss/sponsors.scss'
+import '../../scss/_variables.scss'
 
-export default function Sponsors() {
-	return (
-		<div className={classNames.wrapper}>
-			<h2 className={classNames.title}>Sponsors</h2>
-			<ImageList cols={4} gap={50} className={classNames.logoWrapper}>
-				{imgData.map(item => (
-					<ImageListItem key={item.img}>
-						<img src={item.img} srcSet={item.img} alt={item.title} loading='lazy' />
-					</ImageListItem>
-				))}
-			</ImageList>
-		</div>
-	)
-}
+const Sponsors = () => (
+    <div className="sponsors">
+        <Container>
+        <Grid container justifyContent="center">
+            <h1>Sponsor</h1>
+        </Grid>
+        <Grid container className="" alignItems="center" >
+            <Grid item xs={12} sm={6} md={3} display="flex" justifyContent="center">
+                    <img src={hacktoberfest} alt='logo-hacktoberfest' className="img-fluid" />
+            </Grid>
+            <Grid item xs={12} sm={6} md={3} display="flex" justifyContent="center">
+                    <img src={digitalocean} alt='digitalocean' className="img-fluid" />
+            </Grid>
+            <Grid item xs={12} sm={6} md={3} display="flex" justifyContent="center">
+                    <img src={gc} alt='gc-srilanka' className="img-fluid" />
+            </Grid>
+            <Grid item xs={12} sm={6} md={3} display="flex" justifyContent="center">
+                    <img src={foss} alt='logo-sliit-foss' className="img-fluid" />
+            </Grid>
+        </Grid>
+        </Container>
+    </div>
+)
+
+export default Sponsors
