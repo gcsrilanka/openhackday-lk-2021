@@ -1,5 +1,7 @@
+@import './_variables.scss';
+
 .title {
-	color: #ad6359;
+	color: $secondary-color;
 	font-family: Montserrat;
 	font-size: 48px;
 	font-style: normal;
