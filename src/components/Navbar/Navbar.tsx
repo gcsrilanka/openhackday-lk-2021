@@ -11,7 +11,8 @@ import {
 import MenuIcon from '@mui/icons-material/Menu'
 import { useEffect, useState } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import './Navbar.scss'
+// import './Navbar.scss'
+import '../../scss/Navbar.scss'
 
 const headersData = [
 	{
@@ -71,7 +72,7 @@ function Navbar() {
 		<Toolbar>
 			<div className='navHeaderBar'>
 				<div>{OpenHackDaySriLankaTitel}</div>
-				<div>{getMenuButtons()}</div>
+				<div className="centerRow">{getMenuButtons()}</div>
 			</div>
 		</Toolbar>
 	)
@@ -155,25 +156,6 @@ function Navbar() {
 				{label}
 			</Button>
 		))
-
-	// const setActiveLinkClass = () => {
-	// 	// get current page path
-	// 	const path = window.location.hash
-	// 	// set the active link class
-	// 	const activeLink = path.split('/')[1]
-
-	// 	const activeElement = document.getElementById(activeLink)
-
-	// 	// @ts-ignore: Object is possibly 'null'
-	// 	const activeElementText = document.getElementById(activeLink + 1)
-
-	// 	// @ts-ignore: Object is possibly 'null'
-	// 	if (activeElement != null) {
-	// 		activeElement.classList.add('active')
-	// 		// @ts-ignore: Object is possibly 'null'
-	// 		activeElementText.classList.add('activeTextColor')
-	// 	}
-	// }
 
 	return (
 		<header>
