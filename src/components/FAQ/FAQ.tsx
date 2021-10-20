@@ -1,5 +1,6 @@
 import { Container } from '@mui/material'
 import React from 'react'
+import '../../scss/main.scss'
 import '../../scss/faq.scss'
 import faqData from '../../data/faqs.json'
 

@@ -1,5 +1,6 @@
 import { Container } from '@mui/material'
 import teamMembers from '../../data/team.json'
+import '../../scss/main.scss'
 import '../../scss/team.scss'
 
 export default function Team() {

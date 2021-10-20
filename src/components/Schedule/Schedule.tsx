@@ -2,6 +2,7 @@ import { Container, Grid } from '@mui/material'
 import React from 'react'
 import ScheduleCard from './ScheduleCard'
 import scheduleData from '../../data/schedule.json'
+import '../../scss/main.scss'
 import '../../scss/schedule.scss'
 
 const Schedule = () => (

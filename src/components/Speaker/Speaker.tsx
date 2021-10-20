@@ -1,5 +1,6 @@
 import { Container } from '@mui/material'
 import speakers from '../../data/speakers.json'
+import '../../scss/main.scss'
 import '../../scss/speakers.scss'
 
 export default function Speakers() {

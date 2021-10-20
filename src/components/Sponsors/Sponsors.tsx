@@ -4,6 +4,7 @@ import digitalocean from '../../assets/images/digitalocean.png'
 import gc from '../../assets/images/gc-srilanka.png'
 import foss from '../../assets/images/logo-sliit-foss.png'
 import hacktoberfest from '../../assets/images/logo-hacktoberfest.png'
+import '../../scss/main.scss'
 import '../../scss/sponsors.scss'
 import '../../scss/_variables.scss'
 

@@ -1,5 +1,6 @@
 import { Container, Grid } from '@mui/material'
 import React from 'react'
+import '../../scss/main.scss'
 import '../../scss/about.scss'
 import '../../scss/_variables.scss'
 import Image from '../../assets/images/about.png'
