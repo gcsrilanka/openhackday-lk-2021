@@ -1,7 +1,7 @@
-@use "./variables" as variables;
+@import './_variables.scss';
 
 .footer{
-    background-color: variables.$primary-color;
+    background-color: $primary-color;
     color: #b3b3b3;
     padding: 2rem 0 1rem 0;
     .link {

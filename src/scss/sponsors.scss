@@ -1,9 +1,9 @@
-@use "./variables" as variables;
+@import './_variables.scss';
 
 .sponsors{
     padding-bottom: 50px;
     h1{
-        color: variables.$secondary-color;
+        color: $secondary-color;
         font-weight: 900;
         padding: 20px 0;
     }

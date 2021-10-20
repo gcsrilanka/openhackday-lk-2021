@@ -1,7 +1,7 @@
-@use "./variables" as variables;
+@import './_variables.scss';
 
 h1{
-    color: variables.$secondary-color;
+    color: $secondary-color;
     font-weight: 900;
     padding: 20px 0;
 }
@@ -28,7 +28,7 @@ h1{
     }
     .subTime{
         font-size: 14px;
-        color: variables.$secondary-color;
+        color: $secondary-color;
         margin: 0;
     }
     h4{
