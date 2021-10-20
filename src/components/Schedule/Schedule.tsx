@@ -1,7 +1,6 @@
-import { Button, Container, Grid } from '@mui/material'
+import { Container, Grid } from '@mui/material'
 import React from 'react'
 import ScheduleCard from './ScheduleCard'
-import user from '../../assets/images/user.png'
 import scheduleData from '../../data/schedule.json';
 
 const Schedule = () => (
