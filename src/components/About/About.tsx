@@ -9,7 +9,7 @@ const About = () => (
 	<div className='about'>
 		<Container sx={{ mt: 5, mb: 2 }}>
 			<Grid container justifyContent='center'>
-				<div className='title'>About Us</div>
+				<div className='title titleMargin'>About Us</div>
 			</Grid>
 			<Grid container className=''>
 				<Grid item xs={12} sm={6} md={6}>
