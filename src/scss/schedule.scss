@@ -1,21 +1,5 @@
 @import './_variables.scss';
 
-h1 {
-	color: $secondary-color;
-	font-family: Montserrat;
-	font-size: 48px;
-	font-style: normal;
-	font-weight: 800;
-	line-height: 59px;
-	letter-spacing: 0em;
-	text-align: center;
-}
-h4 {
-	text-align: left;
-}
-p {
-	text-align: left;
-}
 .schedule {
 	.scheduleBox {
 		background-color: #f3f3f3;
@@ -45,6 +29,10 @@ p {
 	h4 {
 		margin: 0;
 		font-weight: 800;
+        text-align: left;
+	}
+	p {
+		text-align: left;
 	}
 	.button {
 		margin-top: 6px !important;

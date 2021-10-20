@@ -6,9 +6,7 @@ import '../../scss/schedule.scss'
 
 const Schedule = () => (
 	<Container className='wrapper'>
-		<Grid container justifyContent='center' className='title'>
-			<h1>Schedule</h1>
-		</Grid>
+		<div className='title'>Schedule</div>
 		<Grid container className='schedule'>
 			{scheduleData.map(data => (
 				<ScheduleCard
