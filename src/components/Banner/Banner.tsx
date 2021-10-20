@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import Image from '../../assets/images/share-card.png'
+import Image from '../../assets/images/banner-comingsoonBL.png'
 import '../../scss/about.scss'
 
 const Banner = () => (
