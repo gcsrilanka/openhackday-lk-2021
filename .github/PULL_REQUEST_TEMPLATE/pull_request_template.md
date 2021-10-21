@@ -10,7 +10,7 @@ Fixes # (issue_no)
 * Change 1
 * Fixes 1
 
-## Screenshot (If Applicable)
+# Screenshot (If Applicable)
 [upload the screenshot here]
 
 # Checklist:
