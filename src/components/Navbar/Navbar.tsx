@@ -71,7 +71,7 @@ function Navbar() {
 		<Toolbar>
 			<div className='navHeaderBar'>
 				<div>{OpenHackDaySriLankaTitel}</div>
-				<div className="centerRow">{getMenuButtons()}</div>
+				<div className='centerRow'>{getMenuButtons()}</div>
 			</div>
 		</Toolbar>
 	)

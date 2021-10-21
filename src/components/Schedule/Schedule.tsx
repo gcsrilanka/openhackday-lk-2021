@@ -4,11 +4,11 @@ import ScheduleCard from './ScheduleCard'
 import scheduleData from '../../data/schedule.json'
 
 const Schedule = () => (
-	<Container>
+	<Container className='schedule'>
 		<Grid container justifyContent='center'>
 			<div className='title'>Schedule</div>
 		</Grid>
-		<Grid container className='schedule'>
+		<Grid container>
 			{scheduleData.map(data => (
 				<ScheduleCard
 					title={data.title}
