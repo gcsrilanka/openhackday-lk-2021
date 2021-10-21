@@ -1,6 +1,6 @@
 import { Grid } from '@mui/material'
 import React from 'react'
-import Image from '../../assets/images/banner-comingsoonBL.png'
+import Image from '../../assets/images/share-card.png'
 import '../../scss/about.scss'
 
 const Banner = () => (
@@ -9,7 +9,7 @@ const Banner = () => (
 			<img
 				src={Image}
 				alt='banner'
-				className='img-fluid'
+				className='img-fluidBanner'
 				style={{ borderRadius: '10px' }}
 			/>
 		</Grid>
