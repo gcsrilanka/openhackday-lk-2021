@@ -1,30 +1,79 @@
-.wrapper {
-	text-align: center;
-	margin: 60px 0;
+title-text {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+		'Lucida Sans', Arial, sans-serif;
 }
 
-.speakerWrapper {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 50px 0;
-}
-
-.title {
-	color: #ad6359;
-	font-family: Montserrat;
-	font-size: 48px;
-	font-style: normal;
-	font-weight: 800;
-	line-height: 59px;
-	letter-spacing: 0em;
+.intro {
 	text-align: center;
 }
 
-.avatar {
-	flex: 1;
-	margin: 20px 20px;
-	img {
-		border-radius: 50%;
-		height: 180px;
+.team-boxed {
+	color: #313437;
+
+	.intro {
+		font-size: 16px;
+		max-width: 500px;
+		margin: 0 auto;
 	}
+
+	.box {
+		text-align: center;
+		padding: 15px 0px 15px 0px;
+		background-color: #fff;
+		margin-bottom: 30px;
+		border-radius: 10px;
+	}
+
+	.item .name {
+		font-weight: bold;
+		margin-top: 15px;
+		margin-bottom: 0px;
+		color: inherit;
+	}
+
+	.item .role {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #6d6c6c;
+		letter-spacing: 2px;
+		font-size: 13px;
+	}
+
+	.item img {
+		max-width: 160px;
+		transition: transform 0.2s;
+		margin: 0 auto;
+		cursor: default;
+		width: 9em;
+	}
+
+	.item img:hover {
+		transform: scale(1.1);
+	}
+
+	.social {
+		font-size: 12px;
+		color: #a2a8ae;
+	}
+
+	.social:hover {
+		font-size: 12px;
+		color: #ad6359;
+	}
+
+	.social a {
+		color: inherit;
+		margin: 0 8px;
+		display: inline-block;
+		opacity: 0.6;
+		padding: 0px;
+	}
+
+	.social a:hover {
+		opacity: 1;
+	}
+}
+
+.rounded-circle {
+	border-radius: 50%;
 }
