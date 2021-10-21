@@ -11,7 +11,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu'
 import { useEffect, useState } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import '../../scss/navbar.scss'
+import '../../scss/Navbar.scss'
 
 const headersData = [
 	{
@@ -71,7 +71,7 @@ function Navbar() {
 		<Toolbar>
 			<div className='navHeaderBar'>
 				<div>{OpenHackDaySriLankaTitel}</div>
-				<div className="centerRow">{getMenuButtons()}</div>
+				<div className='centerRow'>{getMenuButtons()}</div>
 			</div>
 		</Toolbar>
 	)
