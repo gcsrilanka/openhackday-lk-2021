@@ -13,7 +13,7 @@ const Sponsors = () => (
 			<Grid container justifyContent='center'>
 				<div className='title'>Sponsors</div>
 			</Grid>
-			<Grid container className='' alignItems='center'>
+			<Grid container className='sponsorLogos' alignItems='center'>
 				<Grid item xs={12} sm={6} md={3} display='flex' justifyContent='center'>
 					<img src={hacktoberfest} alt='logo-hacktoberfest' className='img-fluid' />
 				</Grid>

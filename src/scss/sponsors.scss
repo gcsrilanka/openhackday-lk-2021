@@ -1,7 +1,7 @@
 @import './_variables.scss';
 
 .sponsors {
-	padding-bottom: 50px;
+	margin: 70px auto;
 	h1 {
 		color: $secondary-color;
 		font-weight: 900;
@@ -30,4 +30,8 @@
 		letter-spacing: 0em;
 		text-align: center;
 	}
+}
+
+.sponsorLogos {
+	margin: 30px auto;
 }
