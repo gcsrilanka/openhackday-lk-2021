@@ -1,7 +1,7 @@
 import { Container, Grid } from '@mui/material'
 import React from 'react'
 import '../../scss/about.scss'
-import '../../scss/_variables.scss'
+import '../../scss/common.scss'
 import Image from '../../assets/images/about.png'
 
 const About = () => (
