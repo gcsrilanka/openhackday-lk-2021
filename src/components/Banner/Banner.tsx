@@ -5,11 +5,11 @@ import '../../scss/about.scss'
 
 const Banner = () => (
 	<Grid container justifyContent='center' sx={{ mt: 10 }}>
-		<Grid item xs={12} sm={12} md={12} justifyContent='center'>
+		<Grid item xs={12} sm={12} md={12} justifyContent='center' display="flex">
 			<img
 				src={Image}
 				alt='banner'
-				className='img-fluid'
+				className='img-fluidBanner'
 				style={{ borderRadius: '10px' }}
 			/>
 		</Grid>
