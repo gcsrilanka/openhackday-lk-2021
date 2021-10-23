@@ -15,6 +15,7 @@ export default function Team() {
 					{teamMembers.map(item => (
 						<div className='avatar' key={item.id}>
 							<img src={item.img} alt={item.name} />
+							<h3 className='name'>{item.name}</h3>
 						</div>
 					))}
 				</div>
