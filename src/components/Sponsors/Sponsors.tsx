@@ -8,7 +8,7 @@ import '../../scss/sponsors.scss'
 import '../../scss/_variables.scss'
 
 const Sponsors = () => (
-	<div className='sponsors'>
+	<div className='sponsors' id='Sponsor'>
 		<Container>
 			<Grid container justifyContent='center'>
 				<div className='title'>Sponsors</div>

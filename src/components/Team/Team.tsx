@@ -4,7 +4,7 @@ import '../../scss/team.scss'
 
 export default function Team() {
 	return (
-		<Container>
+		<Container id='Team'>
 			<div className='wrapper'>
 				<div className='title'>Team</div>
 				<p>

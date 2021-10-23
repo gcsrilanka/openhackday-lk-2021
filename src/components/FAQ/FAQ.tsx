@@ -5,7 +5,7 @@ import faqData from '../../data/faqs.json'
 
 export default function FAQ() {
 	return (
-		<Container>
+		<Container id='FAQ'>
 			<div className='wrapper'>
 				<div className='title'>FAQ</div>
 				<p>

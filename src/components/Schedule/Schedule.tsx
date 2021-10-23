@@ -4,7 +4,7 @@ import ScheduleCard from './ScheduleCard'
 import scheduleData from '../../data/schedule.json'
 
 const Schedule = () => (
-	<Container className='schedule'>
+	<Container className='schedule' id='Schedule'>
 		<Grid container justifyContent='center'>
 			<div className='title'>Schedule</div>
 		</Grid>
