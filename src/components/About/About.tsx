@@ -5,8 +5,8 @@ import '../../scss/common.scss'
 import Image from '../../assets/images/about.png'
 
 const About = () => (
-	<div className='about'>
-		<Container sx={{ mt: 5, mb: 2 }}>
+	<section id='About'>
+		<Container sx={{ mt: 5, mb: 2 }} className='about'>
 			<Grid container justifyContent='center'>
 				<div className='title'>About Us</div>
 			</Grid>
@@ -33,7 +33,7 @@ const About = () => (
 				</Grid>
 			</Grid>
 		</Container>
-	</div>
+	</section>
 )
 
 export default About

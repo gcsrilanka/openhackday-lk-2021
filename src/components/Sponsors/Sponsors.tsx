@@ -8,8 +8,8 @@ import '../../scss/sponsors.scss'
 import '../../scss/_variables.scss'
 
 const Sponsors = () => (
-	<div className='sponsors'>
-		<Container>
+	<section id='Sponsor'>
+		<Container className='sponsors'>
 			<Grid container justifyContent='center'>
 				<div className='title'>Sponsors</div>
 			</Grid>
@@ -28,7 +28,7 @@ const Sponsors = () => (
 				</Grid>
 			</Grid>
 		</Container>
-	</div>
+	</section>
 )
 
 export default Sponsors

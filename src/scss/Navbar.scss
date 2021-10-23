@@ -14,11 +14,22 @@
 .menuButton {
 	font-family: Work Sans, sans-serif !important;
 	font-weight: 700 !important;
-	size: 18px !important;
-	margin-left: 30px !important;
+	margin: 0 15px !important;
 	text-transform: none !important;
 	color: #ad6359 !important;
 	text-align: right !important;
+	&:hover {
+		color: #193d5d !important;
+		cursor: pointer;
+	}
+	&:active {
+		color: #193d5d !important;
+		cursor: pointer;
+	}
+	&:focus {
+		color: #193d5d !important;
+		cursor: pointer;
+	}
 }
 
 .toolbarDiv {
@@ -39,20 +50,14 @@
 }
 
 .active {
-	width: 6px;
-	height: 6px;
-	background-color: #193d5d;
-	color: #193d5d;
-	border-radius: 100%;
-	margin-right: 10px;
-	display: block;
+	color: #193d5d !important;
 }
 
 .activeTextColor {
 	color: #193d5d;
 	text-decoration: #193d5d;
 }
-.centerRow{
+.centerRow {
 	align-self: center;
 }
 
