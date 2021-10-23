@@ -9,7 +9,7 @@ const Schedule = () => (
 			<Grid container justifyContent='center'>
 				<div className='title'>Schedule</div>
 			</Grid>
-			<Grid container>
+			<div className='scheduleCardWrapper'>
 				{scheduleData.map(data => (
 					<ScheduleCard
 						title={data.title}
@@ -19,7 +19,7 @@ const Schedule = () => (
 						href={data.href}
 					/>
 				))}
-			</Grid>
+			</div>
 		</Container>
 	</section>
 )
