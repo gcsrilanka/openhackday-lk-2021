@@ -1,53 +1,77 @@
 @import './_variables.scss';
 
-h1{
-    color: $secondary-color;
-    font-weight: 900;
-    padding: 20px 0;
+.schedule {
+	margin: 60px auto;
 }
-.schedule{
-    margin: 60px auto;
-    .scheduleBox{
-        background-color: #F3F3F3;
-        border-radius: 10px;
-        padding: 25px;
-    }
-    .scheduleImg{
-        height: 100px;
-        width: 100px;
-        border-radius: 10px;
-        object-fit: cover;
-    }
-    .scheduleContent{
-        padding-right: 5px;
-    }
-    .subTitle{
-        font-size: 14px;
-        font-weight: 500;
-        padding: 10px 0;
-        margin: 0;
-    }
-    .subTime{
-        font-size: 14px;
-        color: $secondary-color;
-        margin: 0;
-    }
-    h4{
-        margin: 0;
-        font-weight: 800;
-    }
-    .button{
-        margin-top: 6px !important;
-        padding: 2px 12px !important;
-        background-color: #0069FF !important;
-        color: white;
-        box-shadow: none !important;
-        text-transform: capitalize !important; 
-        font-size: 14px;
-        border-radius: 6px;
-    }
-    .spacing{
-        padding: 10px;
-    }
 
+.button {
+	margin-top: 16px !important;
+	padding: 2px 12px !important;
+	background-color: #0069ff !important;
+	color: white !important;
+	box-shadow: none !important;
+	text-transform: capitalize !important;
+	font-size: 14px;
+	border-radius: 6px;
+}
+
+.scheduleCardWrapper {
+	display: flex;
+	justify-content: space-around;
+	margin: 20px 0;
+	flex-wrap: wrap;
+}
+
+.scheduleCard {
+	background-color: #f3f3f3;
+	border-radius: 10px;
+	padding: 25px;
+	flex: 1;
+	margin: 20px 20px;
+}
+
+.scheduleCardContent {
+	display: flex;
+	justify-content: space-between;
+	img {
+		height: 100px;
+		width: 100px;
+		border-radius: 10px;
+		object-fit: cover;
+	}
+}
+
+.scheduleTopic {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 28px;
+	letter-spacing: 0em;
+	text-align: left;
+	max-width: 200px;
+	margin: 0 25px 10px 0;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.scheduleName {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+
+.scheduleTime {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: $secondary-color;
+	margin: 5px 0;
 }
