@@ -2,45 +2,53 @@ import {
 	Toolbar,
 	AppBar,
 	Typography,
-	Button,
 	IconButton,
 	Drawer,
-	Link,
 	MenuItem,
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import { useEffect, useState } from 'react'
+<<<<<<< HEAD
 import { Link as RouterLink } from 'react-router-dom'
 import '../../scss/navbar.scss'
+=======
+import '../../scss/Navbar.scss'
+import { Link } from 'react-scroll'
+>>>>>>> 04f983ea138fbf1c0dd8e66c4f86a249b634fe70
 
 const headersData = [
 	{
 		label: 'About',
-		href: '/About',
+		href: 'About',
 	},
 	{
 		label: 'Speakers',
-		href: '/Speakers',
+		href: 'Speakers',
 	},
 	{
 		label: 'Schedule',
-		href: '/Schedule',
+		href: 'Schedule',
 	},
 	{
 		label: 'Sponsor',
-		href: '/Sponsor',
+		href: 'Sponsor',
 	},
 	{
+<<<<<<< HEAD
 		label: 'Leaderboard',
 		href: '/leaderboard',
+=======
+		label: 'Swag',
+		href: 'Swag',
+>>>>>>> 04f983ea138fbf1c0dd8e66c4f86a249b634fe70
 	},
 	{
 		label: 'FAQ',
-		href: '/FAQ',
+		href: 'FAQ',
 	},
 	{
 		label: 'Team',
-		href: '/Team',
+		href: 'Team',
 	},
 ]
 
@@ -114,17 +122,7 @@ function Navbar() {
 
 	const getDrawerChoices = () =>
 		headersData.map(({ label, href }) => (
-			<Link
-				{...{
-					component: RouterLink,
-					to: href,
-					color: 'inherit',
-					style: { textDecoration: 'none', color: '#AD6359' },
-					key: label,
-					// onClick: setActiveLinkClass,
-					id: label + 1,
-				}}
-			>
+			<Link activeClass='active' className='menuButton' to={href} spy smooth>
 				<MenuItem>
 					<span {...{ id: label }} />
 					{label}
@@ -140,20 +138,9 @@ function Navbar() {
 
 	const getMenuButtons = () =>
 		headersData.map(({ label, href }) => (
-			<Button
-				{...{
-					key: label,
-					color: 'inherit',
-					to: href,
-					component: RouterLink,
-					// onClick: setActiveLinkClass,
-					id: label + 1,
-					className: 'menuButton',
-				}}
-			>
-				<span {...{ id: label }} />
+			<Link activeClass='active' className='menuButton' to={href} spy smooth>
 				{label}
-			</Button>
+			</Link>
 		))
 
 	return (
