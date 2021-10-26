@@ -1,22 +1,83 @@
 [
 	{
 		"id": 1,
-		"name": "John Doe",
-		"img": "https://i.pravatar.cc/300?img=6"
+		"name": "Isuru Abeywardana",
+		"avatarURL": "https://avatars2.githubusercontent.com/u/7692626",
+		"github": "https://www.github.com/isuruAb",
+		"linkedin": "https://lk.linkedin.com/in/isuru-abeywardana-2b4152177",
+		"instagram": "https://www.instagram.com/isuruab_/",
+		"twitter": "https://twitter.com/isuruAb",
+		"job": "Software Engineer"
 	},
 	{
 		"id": 2,
-		"name": "John Doe",
-		"img": "https://i.pravatar.cc/300?img=7"
+		"name": "Madhushanka Padmal",
+		"avatarURL": "https://avatars0.githubusercontent.com/u/14261304",
+		"github": "https://github.com/CloudyPadmal",
+		"facebook": "https://www.facebook.com/cloudypadmal",
+		"instagram": "https://www.instagram.com/cloudypadmal",
+		"twitter": "https://twitter.com/Cloudypadmal",
+		"job": "Software Engineer"
 	},
 	{
 		"id": 3,
-		"name": "John Doe",
-		"img": "https://i.pravatar.cc/300?img=8"
+		"name": "Dilum De Silva",
+		"avatarURL": "https://avatars2.githubusercontent.com/u/23298579",
+		"github": "https://github.com/dilum1995",
+		"linkedin": "https://lk.linkedin.com/in/dilumdesilva",
+		"instagram": "https://www.instagram.com/dilum1995",
+		"twitter": "https://twitter.com/dilum_de",
+		"job": "Software Engineer at Circles.Life"
 	},
 	{
 		"id": 4,
-		"name": "John Doe",
-		"img": "https://i.pravatar.cc/300?img=9"
+		"name": "Chamod Perera",
+		"avatarURL": "https://avatars1.githubusercontent.com/u/19349315",
+		"github": "https://github.com/Shehanka",
+		"linkedin": "https://lk.linkedin.com/in/chamodshehanka",
+		"instagram": "https://www.instagram.com/chamodshehanka/",
+		"twitter": "https://twitter.com/chamodshehanka",
+		"job": "Software Engineer"
+	},
+	{
+		"id": 5,
+		"name": "Ahamed Safnaj",
+		"avatarURL": "https://avatars0.githubusercontent.com/u/37530024",
+		"github": "https://github.com/Safnaj",
+		"linkedin": "https://www.linkedin.com/in/ahamed-safnaj/",
+		"instagram": "https://www.instagram.com/iam_safnaj",
+		"twitter": "https://twitter.com/iamSafnaj",
+		"job": "Software Engineer at Arimac"
+	},
+	{
+		"id": 6,
+		"name": "Amila Gunarathne",
+		"university": "Sabaragamuwa University",
+		"avatarURL": "https://avatars3.githubusercontent.com/u/24237873",
+		"github": "https://github.com/amilabgunarathne",
+		"linkedin": "https://www.linkedin.com/in/amilabgunarathne/",
+		"instagram": "https://www.instagram.com/amilabgunarathne/",
+		"twitter": "https://twitter.com/abgunarathne",
+		"job": "Instructor at SUSL"
+	},
+	{
+		"id": 7,
+		"name": "Hirantha Peiris",
+		"avatarURL": "https://avatars3.githubusercontent.com/u/27503578",
+		"github": "https://github.com/hiranthaPeiris",
+		"linkedin": "https://lk.linkedin.com/in/hirantha-peiris-404",
+		"instagram": "https://www.instagram.com/hiransandman/",
+		"twitter": "https://twitter.com/hirantha_peiris",
+		"job": "DevOps Engineer"
+	},
+	{
+		"id": 8,
+		"name": "Suvin Nimnaka",
+		"avatarURL": "https://avatars.githubusercontent.com/u/10671497?v=4",
+		"github": "https://github.com/Suvink",
+		"linkedin": "https://lk.linkedin.com/in/suvink",
+		"instagram": "https://www.instagram.com/theatticuss/",
+		"twitter": "https://twitter.com/tikirimaarie",
+		"job": "Software Engineering Intern at WSO2"
 	}
 ]
