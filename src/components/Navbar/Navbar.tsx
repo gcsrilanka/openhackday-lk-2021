@@ -11,7 +11,7 @@ import {
 import MenuIcon from '@mui/icons-material/Menu'
 import { useEffect, useState } from 'react'
 import { Link as RouterLink } from 'react-router-dom'
-import '../../scss/Navbar.scss'
+import '../../scss/navbar.scss'
 
 const headersData = [
 	{
@@ -31,8 +31,8 @@ const headersData = [
 		href: '/Sponsor',
 	},
 	{
-		label: 'Swag',
-		href: '/Swag',
+		label: 'Leaderboard',
+		href: '/leaderboard',
 	},
 	{
 		label: 'FAQ',
