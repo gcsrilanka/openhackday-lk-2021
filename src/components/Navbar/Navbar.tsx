@@ -8,13 +8,8 @@ import {
 } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 import { useEffect, useState } from 'react'
-<<<<<<< HEAD
-import { Link as RouterLink } from 'react-router-dom'
-import '../../scss/navbar.scss'
-=======
 import '../../scss/Navbar.scss'
 import { Link } from 'react-scroll'
->>>>>>> 04f983ea138fbf1c0dd8e66c4f86a249b634fe70
 
 const headersData = [
 	{
@@ -32,15 +27,6 @@ const headersData = [
 	{
 		label: 'Sponsor',
 		href: 'Sponsor',
-	},
-	{
-<<<<<<< HEAD
-		label: 'Leaderboard',
-		href: '/leaderboard',
-=======
-		label: 'Swag',
-		href: 'Swag',
->>>>>>> 04f983ea138fbf1c0dd8e66c4f86a249b634fe70
 	},
 	{
 		label: 'FAQ',

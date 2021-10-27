@@ -39,6 +39,14 @@ title-text {
 		font-size: 13px;
 	}
 
+	.item .job {
+		text-transform: uppercase;
+		font-weight: bold;
+		color: #6d6c6c;
+		margin-top: 2px;
+		font-size: 11px;
+	}
+
 	.item img {
 		max-width: 160px;
 		transition: transform 0.2s;
