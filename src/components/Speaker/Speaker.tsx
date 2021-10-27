@@ -30,32 +30,32 @@ export default function Speakers() {
 									<img
 										className='rounded-circle'
 										data-bs-hover-animate='pulse'
-										src={item.img}
+										src={item.avatarURL}
 										alt='{{ item.name }}'
 									/>
 									<h3 className='name'>{item.name}</h3>
 									<p className='role'>
 										GitHub Campus Expert <br />
-										Software Engineer
+										<p className='job'>{item.job}</p>
 									</p>
 									<div className='social'>
-										<a href='www.google.com' target='_blank'>
+										<a href={item.linkedin} target='_blank' rel='noreferrer'>
 											<i>
 												<LinkedInIcon />
 											</i>
 										</a>
-										<a href='www.google.com' target='_blank'>
+										<a href={item.twitter} target='_blank' rel='noreferrer'>
 											<i>
 												<TwitterIcon />
 											</i>
 										</a>
-										<a href='www.google.com' target='_blank'>
+										<a href={item.instagram} target='_blank' rel='noreferrer'>
 											<i>
 												<InstagramIcon />
 											</i>
 										</a>
 
-										<a href='www.google.com' target='_blank'>
+										<a href={item.github} target='_blank' rel='noreferrer'>
 											<i>
 												<GitHubIcon />
 											</i>

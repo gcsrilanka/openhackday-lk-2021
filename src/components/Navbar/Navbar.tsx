@@ -29,10 +29,6 @@ const headersData = [
 		href: 'Sponsor',
 	},
 	{
-		label: 'Swag',
-		href: 'Swag',
-	},
-	{
 		label: 'FAQ',
 		href: 'FAQ',
 	},
