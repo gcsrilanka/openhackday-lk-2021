@@ -23,16 +23,25 @@ const Footer = () => (
                 <h3>Community</h3>
 
                 <List className="list">
-                   <Link href="/" className="link">
-                        <ListItemText className="list">Stack Overflow</ListItemText>
+                   <Link href="https://github.com/GitHubExperts-LK/" className="link">
+                        <ListItemText className="list">Github</ListItemText>
                    </Link>  
-                   <Link href="/" className="link">
+                   <Link href="https://discord.gg/DzGGk2mbaJ" className="link">
                         <ListItemText className="list">Discord</ListItemText>
                    </Link>  
-                   <Link href="/" className="link">
+                   <Link href="https://twitter.com/gcsrilanka" className="link">
                         <ListItemText className="list">Twitter</ListItemText>
-                   </Link>             
-               </List>
+                   </Link>
+                    <Link href="https://www.instagram.com/gcsrilanka/" className="link">
+                        <ListItemText className="Instagram"></ListItemText>
+                    </Link>
+                    <Link href="https://www.youtube.com/channel/UCVapZkkBAbbYhpl5UeFvrFQ" className="link">
+                        <ListItemText className="You Tube"></ListItemText>
+                    </Link>
+                    <Link href="https://www.facebook.com/GitHubCommunityLK" className="link">
+                        <ListItemText className="Facebook"></ListItemText>
+                    </Link>
+                </List>
 
             </Grid>
         </Grid>
