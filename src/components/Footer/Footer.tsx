@@ -20,7 +20,7 @@ const Footer = () => (
                </List>
             </Grid>
             <Grid item xs={12} sm={4} md={3} >
-                <h3>Community</h3>
+                <h3>Our Socials</h3>
 
                 <List className="list">
                    <Link href="https://github.com/GitHubExperts-LK/" className="link">
