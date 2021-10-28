@@ -33,13 +33,13 @@ const Footer = () => (
                         <ListItemText className="list">Twitter</ListItemText>
                    </Link>
                     <Link href="https://www.instagram.com/gcsrilanka/" className="link">
-                        <ListItemText className="Instagram"></ListItemText>
+                        <ListItemText className="list">Instagram</ListItemText>
                     </Link>
                     <Link href="https://www.youtube.com/channel/UCVapZkkBAbbYhpl5UeFvrFQ" className="link">
-                        <ListItemText className="You Tube"></ListItemText>
+                        <ListItemText className="list">YouTube</ListItemText>
                     </Link>
                     <Link href="https://www.facebook.com/GitHubCommunityLK" className="link">
-                        <ListItemText className="Facebook"></ListItemText>
+                        <ListItemText className="list">Facebook</ListItemText>
                     </Link>
                 </List>
 
