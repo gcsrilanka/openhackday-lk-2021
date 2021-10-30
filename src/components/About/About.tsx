@@ -12,7 +12,7 @@ const About = () => (
 			</Grid>
 			<Grid container className='content'>
 				<Grid item xs={12} sm={6} md={6}>
-					<div className='maxWidth500'>
+					<div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
