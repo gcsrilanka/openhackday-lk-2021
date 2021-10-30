@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 2. Clone the repository
 
 ```
-git clone https://github.com/<YOUR_USERNAME>/sliitfoss.git
+git clone https://github.com/<YOUR_USERNAME>/openhackday-lk.git
 ```
 
 3. Create Feature branch and checkout
