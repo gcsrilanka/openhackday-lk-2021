@@ -18,7 +18,11 @@ const Sponsors = () => (
 					<img src={hacktoberfest} alt='logo-hacktoberfest' className='img-fluid' />
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} display='flex' justifyContent='center'>
-					<img src={digitalocean} alt='digitalocean' className='img-fluid' />
+					<img
+						src={digitalocean}
+						alt='digitalocean'
+						className='img-fluid maxWidth'
+					/>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} display='flex' justifyContent='center'>
 					<img src={gc} alt='gc-srilanka' className='img-fluid' />
