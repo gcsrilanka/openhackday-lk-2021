@@ -13,6 +13,10 @@ import { Link } from 'react-scroll'
 
 const headersData = [
 	{
+		label: 'Home',
+		href: 'Home',
+	},
+	{
 		label: 'About',
 		href: 'About',
 	},
@@ -35,7 +39,7 @@ const headersData = [
 	{
 		label: 'Team',
 		href: 'Team',
-	},
+	}
 ]
 
 function Navbar() {
