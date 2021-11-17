@@ -1,7 +1,11 @@
 @import './_variables.scss';
 
+#Sponsor{
+	padding-top: 10%;
+}
+
 .sponsors {
-	margin: 60px auto;
+	margin: 0px auto;
 	h1 {
 		color: $secondary-color;
 		font-weight: 900;

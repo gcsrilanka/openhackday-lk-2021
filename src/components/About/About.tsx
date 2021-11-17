@@ -6,7 +6,7 @@ import Image from '../../assets/images/about.png'
 
 const About = () => (
 	<section id='About'>
-		<Container sx={{ mt: 5, mb: 2, py: 4, px: 5 }} className='about'>
+		<Container sx={{ mt: 5, py: 5, px: 5 }} className='about'>
 			<Grid container justifyContent='center'>
 				<div className='title'>About Us</div>
 			</Grid>
