@@ -8,9 +8,8 @@ import HomePage from './pages/Home/HomePage'
 const history = createHashHistory()
 const queryClient = new QueryClient()
 
-function App() {
-	console.log('App')
-	return (
+function App () {
+  return (
 		<div>
 			<QueryClientProvider client={queryClient}>
 				<Router history={history}>
@@ -29,7 +28,7 @@ function App() {
 				</Router>
 			</QueryClientProvider>
 		</div>
-	)
+  )
 }
 
 export default App
