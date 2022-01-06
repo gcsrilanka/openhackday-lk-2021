@@ -1,0 +1,43 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended",
+		//"plugin:import/errors"
+		"plugin:import/warnings"
+	],
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["react"],
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module"
+	},
+	"rules": {
+		"react/jsx-filename-extension": [
+			1,
+			{
+				"extensions": [".ts", ".tsx"]
+			}
+		],
+		"no-console": "warn",
+		"no-unused-vars": "warn",
+		"no-unused-expressions": "warn",
+		"quotes": ["warn", "single"],
+		"react/jsx-uses-vars": "error",
+		"react/jsx-uses-react": "error",
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off"
+	},
+	"settings": {
+		"import/resolver": {
+			"node": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx"]
+			}
+		}
+	}
+}
