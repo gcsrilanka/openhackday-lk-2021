@@ -1,6 +1,10 @@
+#Team{
+	padding: 5% 0;
+}
+
 .wrapper {
 	text-align: center;
-	margin: 60px 0;
+	margin: 0px auto;
 }
 
 .teamWrapper {
@@ -11,10 +15,14 @@
 
 .avatar {
 	flex: 1;
-	margin: 0 20px;
+	margin: 20px 20px;
 	img {
 		border-radius: 50%;
 		height: 180px;
+		transition: transform 0.2s;
+	}
+	img:hover {
+		transform: scale(1.1);
 	}
 	.name {
 		font-weight: bold;

@@ -6,13 +6,13 @@ import Image from '../../assets/images/about.png'
 
 const About = () => (
 	<section id='About'>
-		<Container sx={{ mt: 5, mb: 2 }} className='about'>
+		<Container sx={{ mt: 5, py: 5, px: 5 }} className='about'>
 			<Grid container justifyContent='center'>
 				<div className='title'>About Us</div>
 			</Grid>
-			<Grid container className=''>
+			<Grid container className='content'>
 				<Grid item xs={12} sm={6} md={6}>
-					<div className='maxWidth500'>
+					<div>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
 							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
