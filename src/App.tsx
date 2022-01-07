@@ -22,7 +22,6 @@ function App () {
 								component={route.component}
 							/>
 						))}
-
 						<Route key='' exact path='' component={HomePage} />
 					</Switch>
 				</Router>
