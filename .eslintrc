@@ -25,6 +25,7 @@
 		"no-unused-expressions": "warn",
 		"no-tabs": "off",
 		"quotes": ["warn", "single"],
+		"semi": ["error", "always"],
 		"react/jsx-uses-vars": "error",
 		"react/jsx-uses-react": "error",
 		"react/react-in-jsx-scope": "off"
