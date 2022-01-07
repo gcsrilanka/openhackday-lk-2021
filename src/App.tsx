@@ -10,24 +10,24 @@ const queryClient = new QueryClient();
 
 function App () {
   return (
-		<div>
-			<QueryClientProvider client={queryClient}>
-				<Router history={history}>
-					<Switch>
-						{routes.map(route => (
-							<Route
-								key={route.path}
-								exact
-								path={route.path}
-								component={route.component}
-							/>
-						))}
+      <div>
+         <QueryClientProvider client={queryClient}>
+            <Router history={history}>
+               <Switch>
+                  {routes.map((route) => (
+                     <Route
+                        key={route.path}
+                        exact
+                        path={route.path}
+                        component={route.component}
+                     />
+                  ))}
 
-						<Route key='' exact path='' component={HomePage} />
-					</Switch>
-				</Router>
-			</QueryClientProvider>
-		</div>
+                  <Route key='' exact path='' component={HomePage} />
+               </Switch>
+            </Router>
+         </QueryClientProvider>
+      </div>
   );
 }
 
