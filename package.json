@@ -2,6 +2,7 @@
 	"name": "openhackday-lk",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://githubexperts-lk.github.io/openhackday-lk",
 	"dependencies": {
 		"@emotion/react": "^11.4.1",
 		"@emotion/styled": "^11.3.0",
