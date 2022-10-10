@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.47a7bd47.chunk.css",
+    "main.js": "/static/js/main.dafa6e92.chunk.js",
+    "main.js.map": "/static/js/main.dafa6e92.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a7c3e08.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a7c3e08.js.map",
+    "static/js/2.5c1cf914.chunk.js": "/static/js/2.5c1cf914.chunk.js",
+    "static/js/2.5c1cf914.chunk.js.map": "/static/js/2.5c1cf914.chunk.js.map",
+    "static/js/3.9b2a80f1.chunk.js": "/static/js/3.9b2a80f1.chunk.js",
+    "static/js/3.9b2a80f1.chunk.js.map": "/static/js/3.9b2a80f1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.47a7bd47.chunk.css.map": "/static/css/main.47a7bd47.chunk.css.map",
+    "static/js/2.5c1cf914.chunk.js.LICENSE.txt": "/static/js/2.5c1cf914.chunk.js.LICENSE.txt",
+    "static/media/about.097e2551.png": "/static/media/about.097e2551.png",
+    "static/media/gc-srilanka.79f49011.png": "/static/media/gc-srilanka.79f49011.png",
+    "static/media/share-card.f6712adf.png": "/static/media/share-card.f6712adf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a7c3e08.js",
+    "static/js/2.5c1cf914.chunk.js",
+    "static/css/main.47a7bd47.chunk.css",
+    "static/js/main.dafa6e92.chunk.js"
+  ]
+}
